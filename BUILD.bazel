@@ -1,0 +1,9 @@
+cc_library(
+    name = "comp",
+    srcs = [
+
+    ],
+    deps = [
+        "//rate_limiter:thread_pool",
+    ]
+)
